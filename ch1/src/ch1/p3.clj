@@ -1,0 +1,61 @@
+(ns ch1.p3)
+
+(defn square [x] (* x x))
+
+;; EXERCISE 1.29 -- INCOMPLETE
+
+
+;; EXERCISE 1.30 -- INCOMPLETE
+
+
+;; EXERCISE 1.31 -- INCOMPLETE
+
+
+;; EXERCISE 1.32 -- INCOMPLETE
+
+
+;; EXERCISE 1.33 -- INCOMPLETE
+
+
+;; EXERCISE 1.34
+(defn f [g]
+  (g 2))
+
+(f square)
+(f (fn [z] (* z (+ z 1))))
+; (f f) ; error because tries to do (2 2) and 2 is not a function
+
+;; EXERCISE 1.35 -- INCOMPLETE
+
+
+;; EXERCISE 1.36 -- INCOMPLETE
+
+
+;; EXERCISE 1.37 -- INCOMPLETE
+
+
+;; EXERCISE 1.38 -- INCOMPLETE
+
+
+;; EXERCISE 1.39 -- INCOMPLETE
+
+
+;; EXERCISE 1.40 -- INCOMPLETE
+
+
+;; EXERCISE 1.41 -- INCOMPLETE
+
+
+;; EXERCISE 1.42 -- INCOMPLETE
+
+
+;; EXERCISE 1.43 -- INCOMPLETE
+
+
+;; EXERCISE 1.44 -- INCOMPLETE
+
+
+;; EXERCISE 1.45 -- INCOMPLETE
+
+
+;; EXERCISE 1.46 -- INCOMPLETE
